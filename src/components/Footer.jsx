@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <FooterWrapper>
-        <p>Daniel Aguiar | 2019 | Tout droits réservés &copy;</p>
+        <p>Daniel Aguiar | 2019 | Tous droits réservés &copy;</p>
       </FooterWrapper>
     </React.Fragment>
   );

@@ -74,10 +74,7 @@ const Header = () => {
         <br />
         <p> Etudiant en informatique </p>
         <br />
-        <p>
-          Si vous voulez en apprendre plus sur moi cliquez sur le bouton
-          ci-dessous
-        </p>
+        <p>Vous voulez me découvrir alors cliquez sur le bouton ci-dessous !</p>
         <div className="button">
           <Button>
             <StyledLink

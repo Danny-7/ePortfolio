@@ -9,12 +9,19 @@ const LanguagesContainer = () => {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 15px;
+
+    .description {
+      text-align: center;
+    }
   `;
 
   return (
     <Container>
       {languages.map((lang) => (
-        <LangBadge src={lang.src} alt={lang.alt} />
+        <div>
+          <LangBadge src={lang.src} alt={lang.alt} />
+          <div className="description">{lang.object}</div>
+        </div>
       ))}
     </Container>
   );

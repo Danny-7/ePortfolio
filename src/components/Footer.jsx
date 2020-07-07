@@ -26,7 +26,10 @@ const Footer = () => {
   return (
     <React.Fragment>
       <FooterWrapper>
-        <p>Daniel Aguiar | 2019 | Tous droits réservés &copy;</p>
+        <p>
+          Daniel Aguiar | {new Date().getFullYear()} | Tous droits réservés
+          &copy;
+        </p>
       </FooterWrapper>
     </React.Fragment>
   );

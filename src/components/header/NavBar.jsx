@@ -1,62 +1,7 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import styled from "styled-components";
-
-const NavWrapper = styled.div`
-  width: 100vw;
-  heigth: 7vh;
-  position: fixed;
-  top: 0;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
-
-  .grad-bar {
-    width: 100%;
-    height: 7px;
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(213, 142, 189, 1) 44%,
-      rgba(0, 212, 255, 1) 100%
-    );
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 7vh;
-    margin: 0 auto;
-  }
-
-  .navbar-logo {
-    margin-left: 100px;
-    letter-spacing: 1px;
-    font-size: 24px;
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(213, 142, 189, 1) 44%,
-      rgba(0, 212, 255, 1) 100%
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    cursor: pointer;
-  }
-
-  .navbar ul {
-    display: flex;
-    justify-self: end;
-    align-items: center;
-    width: 700px;
-    margin-right: 50px;
-  }
-
-  .navbar-link {
-    display: flex;
-    justify-content: space-around;
-  }
-`;
+import "../../styles/NavBarStyle.scss";
 
 const StyledLink = styled(Link)`
   color: #000;
@@ -93,7 +38,7 @@ const scrollToTop = () => {
 const NavBar = () => {
   return (
     <React.Fragment>
-      <NavWrapper>
+      <div className="nav-wrapper">
         <div className="grad-bar"></div>
         <nav className="navbar">
           <div className="navbar-logo">
@@ -101,7 +46,7 @@ const NavBar = () => {
           </div>
           <ul className="navbar-link">{navLinks}</ul>
         </nav>
-      </NavWrapper>
+      </div>
     </React.Fragment>
   );
 };

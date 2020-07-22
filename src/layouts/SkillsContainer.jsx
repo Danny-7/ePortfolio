@@ -8,6 +8,7 @@ const Container = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
 `;
+
 const SkillsContainer = () => {
   return (
     <React.Fragment>

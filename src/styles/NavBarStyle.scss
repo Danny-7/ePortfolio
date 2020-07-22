@@ -1,0 +1,47 @@
+@import "variables.scss";
+
+.nav-wrapper {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.grad-bar {
+  width: 100%;
+  height: 7px;
+  background: $primaryLinearGradientColor;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 7vh;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  margin-left: 100px;
+  letter-spacing: 1px;
+  font-size: 24px;
+  background: $primaryLinearGradientColor;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.navbar ul {
+  display: flex;
+  justify-self: end;
+  align-items: center;
+  width: 700px;
+  margin-right: 50px;
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: space-around;
+}

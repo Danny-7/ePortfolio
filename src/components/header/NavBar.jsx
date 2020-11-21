@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import styled from "styled-components";
-import "../../styles/NavBarStyle.scss";
 
 const StyledLink = styled(Link)`
   color: #000;

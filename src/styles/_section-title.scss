@@ -23,7 +23,23 @@
 
 .title-bar {
   margin-top: 5px;
-  width: 284px;
+  width: 60%;
   height: 0px;
   border: 1px solid #b9aeae;
+}
+
+@media screen and (max-width: 768px) {
+  .title-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .title-bar {
+    width: 80%;
+  }
 }

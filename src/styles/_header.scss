@@ -5,7 +5,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  background: url("../assets/bg.png");
+  background: url("../assets/dark-fiber-optic.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -19,10 +19,9 @@
   font-size: 30px;
   text-shadow: 5px 2px 19px rgba(150, 150, 150, 1);
   width: 600px;
-  height: 325px;
   margin-left: 50px;
   padding: 15px;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(179, 177, 177, 0.02);
 
   .button {
     display: flex;
@@ -33,7 +32,10 @@
 }
 
 .header-btn {
+  color: #fff;
+  cursor: pointer;
   text-decoration: none;
+  font-weight: 400;
   font-size: 18px;
   background: $primaryLinearGradientColor;
   padding: 20px;
@@ -45,5 +47,23 @@
 
   &:focus {
     outline: none;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-description {
+    max-width: 80%;
+    font-size: 4vw;
+  }
+
+  .header-btn {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-description {
+    margin: 0 auto;
   }
 }

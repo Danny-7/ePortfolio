@@ -1,13 +1,12 @@
 export const about = [
   "L'informatique me passionnant depuis ma tendre enfance j'ai décidé de continuer dans cette voie pour en faire mon métier.",
-  "Au cours des années de lycée j'ai pu prendre connaissances de quelques langages de programmation comme le C, C++ et m'instruire aux langages de balisages HTML5 et CSS3.",
-  "En 2109 j'ai obtenu mon Baccalauréat Sciences et technologies de l'industrie et du développement durable spécialité système d'information et numérique au lycée de Cachan à Cachan.",
+  "Au cours des années de lycée, j'ai pu prendre connaissances de quelques langages de programmation comme le C, C++ et m'instruire aux langages de balisages HTML5 et CSS3.",
+  "En 2019 j'ai obtenu mon Baccalauréat Sciences et technologies de l'industrie et du développement durable spécialité système d'information et numérique au lycée de Cachan à Cachan.",
   "Me voilà étudiant en deuxième année d'informatique à l'IUT de Paris, au cours de ma première année j'ai pu développer mes connaissances que j'avais pu acquérir au lycée, de plus avec un programme pluridisciplinaire celui-ci ma permis d'acroître mon niveau en mathématiques, comptabilité, gestion de projet ... etc.",
-  "J'ai découvert un nouveau paradigme de programmation 'la programmation objets' que j'affectionne particulièrement cela permet de modéliser un problème sous forme d'objets. Pour valider ces connaissances nous avons pu effectuer des programmes en CLI, interface que pouvez retrouver sur mon GitHub (cf. Contact).",
+  "J'ai découvert un nouveau paradigme de programmation 'la programmation objets' que j'affectionne particulièrement, cela permet de modéliser un problème sous forme d'objets. Pour valider ces connaissances nous avons pu effectuer des projets tels que des programmes en CLI, des interfaces, sites web que vous pouvez retrouver sur mon GitHub (cf. Contact).",
 ];
 
-export const skills = [
-  {
+export const skills = [{
     src: "java.png",
     alt: "Java language",
     level: "65",
@@ -35,7 +34,7 @@ export const skills = [
   {
     src: "css3.png",
     alt: "CSS3 language",
-    level: "50",
+    level: "60",
   },
   {
     src: "vb.png",
@@ -48,22 +47,26 @@ export const skills = [
     level: "60",
   },
   {
+    src: "php.png",
+    alt: "PHP language",
+    level: "50",
+  },
+  {
     src: "linux.png",
     alt: "Linux OS - CLI",
     level: "60",
   },
 ];
 
-export const languages = [
-  {
+export const languages = [{
     src: "uk.png",
     alt: "English",
-    object: "Professionnelle",
+    object: "Professionnel",
   },
   {
     src: "spain.png",
     alt: "Spanish",
-    object: "Ocasionnelle",
+    object: "Intermédiaire",
   },
   {
     src: "portugal.png",

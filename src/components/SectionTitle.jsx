@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/SectionTitleStyle.scss";
 
 const SectionTitle = ({ title }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import styled from "styled-components";
-import "./style.css";
+import "./styles/App.scss";
 
 import NavBar from "./components/header/NavBar";
 import Header from "./components/Header";

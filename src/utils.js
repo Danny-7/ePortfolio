@@ -3,7 +3,7 @@ export const about = [
   "Au cours des années de lycée, j'ai pu prendre connaissances de quelques langages de programmation comme le C, C++ et m'instruire aux langages de balisages HTML5 et CSS3.",
   "En 2019, j'ai obtenu mon baccalauréat de sciences et technologies de l'industrie et du développement durable spécialité système d'information et numérique, au lycée de Cachan à Cachan.",
   "Me voilà étudiant en deuxième année d'informatique à l'IUT de Paris, au cours de ma première année j'ai pu développer mes connaissances que j'avais pu acquérir au lycée, de plus avec un programme pluridisciplinaire celui-ci m'a permis d'accroître mon niveau en mathématiques, comptabilité, gestion de projet, etc.",
-  "J'ai découvert un nouveau paradigme de programmation 'la programmation orientéé objet' que j'affectionne particulièrement, cela permet de modéliser un problème sous forme d'objets. Pour valider ces connaissances nous avons pu effectuer des projets tels que des programmes en CLI, des interfaces, sites web que vous pouvez retrouver sur mon GitHub (cf. Contact).",
+  "J'ai découvert un nouveau paradigme de programmation 'la programmation orientée objet' que j'affectionne particulièrement, cela permet de modéliser un problème sous forme d'objets. Pour valider ces connaissances nous avons pu effectuer des projets tels que des programmes en CLI, des interfaces, sites web que vous pouvez retrouver sur mon GitHub (cf. Contact).",
 ];
 
 export const skills = [{

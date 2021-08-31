@@ -1,0 +1,62 @@
+:root {
+    --primaryLinearGradientColor: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgb(141, 99, 209) 44%,
+        rgb(0, 132, 255) 100%
+    );
+}
+
+.nav-wrapper {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.grad-bar {
+    width: 100%;
+    height: 7px;
+    background: var(--primaryLinearGradientColor);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    margin-left: 100px;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background: var(--primaryLinearGradientColor);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+
+.navbar ul {
+    width: 700px;
+    height: 100%;
+    margin-right: 50px;
+
+    display: flex;
+    justify-self: end;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul > li {
+    height: inherit;
+}
+
+.navbar-link-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

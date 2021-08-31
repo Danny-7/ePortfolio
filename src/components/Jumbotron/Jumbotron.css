@@ -1,0 +1,76 @@
+:root {
+  --primaryLinearGradientColor: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(141, 99, 209) 44%,
+    rgb(0, 132, 255) 100%
+  );
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url("../../assets/dark-fiber-optic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-description {
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+  font-size: 30px;
+  text-shadow: 5px 2px 19px rgba(150, 150, 150, 1);
+  width: 600px;
+  margin-left: 50px;
+  padding: 15px;
+  background: rgba(179, 177, 177, 0.02);
+}
+
+.header-description .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header-btn {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  background: var(--primaryLinearGradientColor);
+  padding: 20px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  justify-self: center;
+}
+
+.header-btn::focus {
+  outline: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .header-description {
+    max-width: 80%;
+    font-size: 4vw;
+  }
+
+  .header-btn {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header-description {
+    margin: 0 auto;
+  }
+}
